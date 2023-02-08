@@ -1,0 +1,43 @@
+@supports (grid-area: auto) {
+	
+	@media screen and (min-width: 400px) {
+		
+		#homePix {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 30% 30% 30%;
+			/* 90% screen - leaves space for grid-gap */
+			grid-template-areas: 
+				"ipad ipadPen vans"
+				"gamPc bluePit sanTracker";
+			justify-content: center;
+			grid-gap: 1% 1%;
+		}
+		
+		#ipadPro {
+			grid-area: ipad;
+		}
+		#ipadPen {
+			grid-area: ipadPen; 
+		}
+		
+		#vans {
+			grid-area: vans; 
+		}
+		
+		#gamPc {
+			grid-area: gamPc;
+		}
+		
+		#bluePit {
+			grid-area: bluePit; 
+		}
+		
+		#sanTracker {
+			grid-area: sanTracker;
+		}
+		
+		
+	} /* End up @media */
+} /* End of @supports */
+

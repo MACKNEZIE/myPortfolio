@@ -1,0 +1,42 @@
+/* CSS Document */
+
+@supports (grid-area: auto) {
+	
+	@media screen and (min-width: 400px) {
+		#projects {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 20% 20% 20% 20%;
+			grid-template-areas: 
+				"prjH prjH prj3 prj4"
+				"prj5 prj6 prj7 prj8";
+			justify-content: center; 
+			grid-gap: 2% 2%;
+		}
+		
+		#projects img {
+			width: 50%;
+			height: 50%;
+		}
+		
+		#prjHeader {
+			grid-area: prjH;
+		}
+		
+		#prj5 {
+			grid-area: prj5;
+		}
+		
+		#prj6 {
+			grid-area: prj6;
+		}
+		
+		#prj7 {
+			grid-area: prj7;
+		}
+		
+		#prj8 {
+			grid-area: prj8;
+		}
+	}
+}

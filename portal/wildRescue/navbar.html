@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Navbar practice</title>
+	<style>
+		body{
+			margin: 0;
+		}
+		
+		nav {
+			margin: 0;
+			padding: 10px 25px;
+			background-color:brown; 
+		}
+		
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		
+		nav li {
+			display: inline;
+		}
+		
+		nav a  {
+			padding: 10px 25px;
+			color: antiquewhite;
+			font-size: 2em;
+			text-decoration: none;
+		}
+		
+		nav a:hover {
+			text-decoration: line-through;
+			color: burlywood;
+		}
+		
+		footer {
+			margin-top: 50px;
+		}
+		
+		.fnav ul {
+			list-style-type: none;
+			text-align: left;
+		}
+		
+		.fnav {
+			padding: 5px 10px;
+			font-size: .8em;
+			background-color: antiquewhite;
+		}
+		
+		.fnav a {
+			color: brown;
+		}
+		
+		.fnav a:hover {
+			color: crimson;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Music</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<footer>
+		<nav class="fnav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Music</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

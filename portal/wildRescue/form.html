@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forms Practice</title>
+	<style>
+		body {
+			background-color: salmon;
+		}
+		
+		form {
+			margin-left: 200px;
+			width: 60%;
+			border: 2px #000 double;
+			background-color: darksalmon;
+			padding: 20px 30px;
+		}
+		
+		input {
+			font-size: 2em;
+			border-radius: 5px;
+			background-color: blanchedalmond;
+			padding: 5px 10px;
+		}
+		
+		input[type=text] {
+			width: 75%;
+		}
+		
+		input[type=email] {
+			width: 100%;
+		}
+		
+		input[type=submit] {
+			background-color: indianred;
+			color: black;
+		}
+		
+		input[type=reset] {
+			background-color: black;
+			color: indianred;
+		}
+		
+		label {
+			font-size: 2em;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="mailto:email@email.com">
+		<label for="fName">First Name:</label><br>
+		<input type="text" id="fName" name="fName"><br>
+		
+		<label for="lName">Last Name:</label><br>
+		<input type="text" id="lName" name="lName"><br>
+		
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email">
+		<br><br>
+		<input type="submit" id="submitBtn" value="Submit Form"><br>
+		<input type="reset" id="resetBtn" value="Rest Form">
+	</form>
+</body>
+</html>

@@ -1,0 +1,195 @@
+/* CSS Document */
+/*
+		FONTS
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+
+		COLORS 
+
+#FDCBCE - Light Pink
+#E86F63 - Salmon 
+#E54C7D - Blush Pink
+#E5432D - Orange Pink 
+#AB331F - Red Pink 
+*/
+
+/************** CSS Reset **************/
+body, header, nav, footer, h1, div, img, p, ul, li, main {
+	margin: 0;
+	padding:0;
+	border:0;
+}
+
+/************** Box Model Fix **************/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: url('../Images/sunset.jpeg') top left;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***********  HEADER SECTION  ***********/
+header {
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 4.5em;
+	color: #fff;
+	text-align: center;
+	text-shadow: 10px 10px 15px #000;
+}
+header h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	margin-top: -10px;
+	text-shadow: 10px 10px 15px #000;
+}
+
+header nav {
+	background: #FDCBCE99;
+	padding: 20px 200px 5px 0; /* TRouBLe */
+	min-height: 75px; 
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+header nav li {
+	display: inline-block;
+	font-family:'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
+header nav a {
+	color: #000;
+	text-decoration: none;
+	padding: 0 0 0 26px;
+	font-size: 1.5em;
+}
+
+header nav a:hover {
+	color: #AB331F;
+	text-decoration: underline;
+}
+
+/********** END OF HEADER **********/
+
+/********** MAIN SECTION **********/
+
+/********** PROJECT SECTION **********/
+#projects {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #E54C7D85;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.5em;
+	color: #000;
+}
+
+#projects img {
+	float: left;
+	margin-right: 2em;
+	justify-content: center;
+}
+
+#projects p {
+	margin-top: 75px;
+	justify-content: center;
+	
+}
+/********** END PROJECT SECTION **********/
+
+/********** ABOUT SECTION **********/
+#about {
+	margin: 0;
+	padding: 5%;
+	min-height: 500px;
+	width: 100%;
+	background-color: #E5432D99;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.5em;
+	color: #000;
+}
+
+#about img {
+	float: left;
+	margin-right: 2em;
+	justify-content: center;
+}
+
+#about p {
+	margin-top: 75px;
+	justify-content: center;
+	
+}
+/********** END ABOUT SECTION **********/
+
+/********** END MAIN SECTION **********/
+
+/********** FOOTER SECTION **********/
+footer {
+	background-color: #E5432D99;
+	color: #000;
+	min-height: 400px; 
+	text-align: center;
+}
+
+footer nav {
+	background: #E86F6399;
+	padding: 20px 200px 5px 0; /* TRouBLe */
+	min-height: 75px; 
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+footer nav li {
+	display: inline-block;
+	font-family:'Shadows Into Light', cursive;
+	font-weight: bold;
+	padding: 0px 50px 0px 150px;
+}
+
+footer nav a {
+	color: #000;
+	text-decoration: none;
+	padding: 0 0 0 26px;
+	font-size: 1.5em;
+}
+
+footer nav a:hover {
+	color: #FDCBCE;
+	text-decoration: underline;
+}
+/********** END FOOTER SECTION**********/
+
+
+
+
+

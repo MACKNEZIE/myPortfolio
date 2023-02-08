@@ -1,0 +1,72 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	
+}
+
+header {
+	
+}
+
+blockquote {
+	
+}
+
+nav {
+	margin: 0;
+	padding: 10px 25px;
+	background-color: peru;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inherit;
+}
+
+nav a {
+	padding: 10px 25px;
+	color: burlywood;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: salmon;
+	text-decoration: line-through;
+}
+
+main {
+	
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+table {
+	
+}
+
+#Fnav {
+	
+}
+
+footer {
+	
+}

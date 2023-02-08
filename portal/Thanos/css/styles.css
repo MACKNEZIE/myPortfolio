@@ -1,0 +1,103 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	
+}
+
+header {
+	
+}
+
+blockquote {
+	background-color: antiquewhite;
+	font-size: 1.3em;
+	text-align: center;
+	color: #9E38E8;
+}
+
+nav {
+	margin: 0;
+	padding: 10px 25px;
+	background-color: peru;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	padding: 50px;
+}
+
+nav a {
+	padding: 10px 25px;
+	color: burlywood;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+nav a:hover {
+	color: indigo;
+	text-decoration: line-through;
+}
+
+main {
+	background-color: #8D3AA3;
+	color: burlywood;
+}
+
+.homePic {
+	
+}
+
+h1 {
+	background-color: antiquewhite;
+	font-size: 2.5em;
+	text-align: center;
+	color: indigo;
+}
+
+h2 {
+	
+}
+
+table {
+	
+}
+
+#Fnav ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+#Fnav li {
+	padding: 0;
+}
+
+#Fnav {
+	
+}
+
+#Fnav a {
+	font-size: 1em;
+}
+
+#Fnav a:hover {
+	color: #9E38E8;
+}
+
+footer {
+	text-align: center;
+	background-color: #8D3AA3;
+}

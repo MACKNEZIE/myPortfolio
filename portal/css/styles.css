@@ -120,6 +120,10 @@ header nav a:hover {
 	justify-content: center;
 	
 }
+
+img #prj8 {
+	transform: rotate(90deg);
+}
 /********** END PROJECT SECTION **********/
 
 /********** ABOUT SECTION **********/

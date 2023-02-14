@@ -135,7 +135,7 @@ header nav a:hover {
 	color: #000;
 }
 
-#about img {
+#about, #about2 img {
 	float: left;
 	margin-right: 2em;
 	justify-content: center;
